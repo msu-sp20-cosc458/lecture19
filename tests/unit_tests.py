@@ -8,7 +8,7 @@ class ChatBotResponseTest(unittest.TestCase):
         
     def test_add_command(self):
         response = functions.get_chatbot_response("!! Hey nabin")
-        self.assertEqual(response, "What's up!!")
+        self.assertEqual(response, "What's up!")
         
     def test_add_command1(self):
         response = functions.get_chatbot_response("!! add 2 4")
